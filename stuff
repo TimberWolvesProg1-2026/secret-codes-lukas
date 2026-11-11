@@ -1,0 +1,13 @@
+
+secret_code = input("Enter a secret code: ")
+
+
+code_length = len(secret_code)
+
+
+if code_length == 1:
+    secret_code = int(secret_code)
+
+
+print(f"Data type: {type(secret_code)}")
+print(f"Code length: {code_length}")
